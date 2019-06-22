@@ -7,4 +7,8 @@ export default styled.div`
     grid-row-start: row1;
     grid-row-end: span 9;
     overflow: hidden;
+    @media (max-width: 1224px) {
+        grid-row-start: row1;
+        grid-row-end: span 8;
+    }
 `

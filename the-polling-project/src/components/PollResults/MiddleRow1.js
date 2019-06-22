@@ -10,4 +10,5 @@ export default styled.div`
     grid-column-end: span 2;
     grid-row-start: row2;
     grid-row-end: span 1;
+    
 `

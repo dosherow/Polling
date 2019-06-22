@@ -30,10 +30,11 @@ import Map from "./Map";
 import Heat from "./Heat";
 import ResultsOverview from "./ResultsOverview";
 import Percent from "./Percent";
+import ReferralLink from "./ReferralLink";
+import Rank from "./Rank";
 
 import graph from './graph1.png';
 import pie from "./pie.png";
-import referrals from "./referrals.png";
 import map from "./map.png";
 import heat from "./heat.png";
 
@@ -153,7 +154,15 @@ export default class PollResults extends React.Component {
           <ResultsOverview>Disagree<Percent>12%</Percent><Total className="disagree"><PercentTotal className="disagree"></PercentTotal></Total></ResultsOverview>
           <ResultsOverview>Strongly Disagree<Percent>6%</Percent><Total className="sdisagree"><PercentTotal className="sdisagree"></PercentTotal></Total></ResultsOverview>
         </MiddleRow2>
-        <MiddleRow3><Referrals src={referrals}></Referrals></MiddleRow3>
+        <MiddleRow3>
+          <Referrals>Top Referrals</Referrals>
+          <ReferralLink><Rank>1</Rank>twitter.com/garyvee/status/11062</ReferralLink>
+          <ReferralLink><Rank>2</Rank>twitter.com/KDTrey5/status/03836</ReferralLink>
+          <ReferralLink><Rank>3</Rank>twitter.com/mcuban/status/14739</ReferralLink>
+          <ReferralLink><Rank>4</Rank>twitter.com/CholeGMoretz/status/18495</ReferralLink>
+          <ReferralLink><Rank>5</Rank>twitter.com/kobebryant/status/27830</ReferralLink>
+          <ReferralLink><Rank>6</Rank>twitter.com/TimDraper/status/39436</ReferralLink>
+          </MiddleRow3>
         <BottomRow1><Map src={map}></Map></BottomRow1>
         <BottomRow2><Heat src={heat}></Heat></BottomRow2>
       </PollGrid>

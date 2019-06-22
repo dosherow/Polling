@@ -16,8 +16,10 @@ export default styled.button`
     padding: 0.8em;
     border-color: transparent;
     @media (max-width: 1224px) {
-        padding: 0.5em;
-        margin-left: 1.4em;
+        margin: 0;
+        padding: 1.5em;
+        grid-column-start: col4;
+        grid-row-start: row9;
     }
 
     @media (max-width: 768px) {

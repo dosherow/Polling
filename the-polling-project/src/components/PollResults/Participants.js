@@ -16,11 +16,11 @@ export default styled.div`
     padding-top: 1em;
     @media (max-width: 1224px) {
         font-size: 2.2rem;
-        padding-top: 1.4em;
+        padding-top: 1.8em;
     }
 
     @media (max-width: 768px) {
-        font-size: 1.6rem;
-        padding-top: 1.6em;
+        font-size: 2rem;
+        padding-top: 2.2em;
     }
 `

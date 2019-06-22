@@ -9,4 +9,13 @@ export default styled.div`
     font-size: 0.8rem;
     margin: 0 auto;
     padding-left: 3.2vw;
+    @media (max-width: 1224px) {
+        font-size: 0.7rem;
+        line-height: 1.9em;
+    }
+
+    @media (max-width: 768px) {
+        font-size: 0.6rem;
+        line-height: 2em;
+    }
 `

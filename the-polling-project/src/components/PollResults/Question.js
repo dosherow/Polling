@@ -15,6 +15,8 @@ export default styled.div`
     @media (max-width: 1224px) {
         font-size: 1rem;
         padding-top: 0.6em;
+        padding-right: 1em;
+        line-height: 1.2em;
     }
 
     @media (max-width: 768px) {
